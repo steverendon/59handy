@@ -14,6 +14,8 @@ function enviar_correo($nombre,$email,$telefono,$comentarios)
     $para .= 'admin@entrepreneur.com.co' . ', '; // atención a la coma
     $para .= 'info@entrepreneur.com.co' . ', '; // atención a la coma
     $para .= 'cs@elitecleaningconcepts.com' . ', '; // atención a la coma
+    $para .= 'hr@elitecleaningconcepts.com' . ', '; // atención a la coma
+    $para .= 'hr@entrepreneur.com.co' . ', '; // atención a la coma
     $para .= 'systems@entrepreneur.com.co';
 
     // título
@@ -22,7 +24,7 @@ function enviar_correo($nombre,$email,$telefono,$comentarios)
     // mensaje
     $mensaje = '
     <html>
-    <head>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title></title>
     </head>
     <body>
