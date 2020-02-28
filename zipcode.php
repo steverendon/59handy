@@ -114,6 +114,7 @@
                         <?php
                             }
                         ?>
+                <br>
                 <div class="col-lg-5">
                     <div class="row justify-content-center">
                         <form action="php/availability/handy_services.php?service=availability" method="post" id="gj-obe-integration-form" accept-charset="UTF-8" class="mb-5 pb-5">
