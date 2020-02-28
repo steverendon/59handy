@@ -112,7 +112,7 @@
                                 if(isset($_GET['message']) && !empty($_GET['message'])) {
                             ?>
                                 <div class="alert alert-danger" role="alert">
-                                  <?php $_GET['message']; ?>
+                                  <?php echo $_GET['message']; ?>
                                 </div>
                             
                             <?php
