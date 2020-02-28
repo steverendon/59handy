@@ -34,7 +34,7 @@
                 $_SESSION['zip'] = $zipcode;
                 session_destroy();
                 //include("no_service_zone.php");
-                header("location:../../zipcode.html?message=Sorry! there is no Handy Services in this moment for your area, zipcode:".$zipcode);
+                header("location:../../zipcode.html?message=Sorry! there is no Handy Services in this moment for your area, zipcode: $zipcode");
             }
             break;
             
