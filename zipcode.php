@@ -104,20 +104,20 @@
         
 <!--<h3 class="titulo_formulario"><b>Received form</b></h3>-->
     <div class="row justify-content-center my-5">
+                        <?php
+                            if(isset($_GET['message']) && !empty($_GET['message'])) {
+                        ?>
+                            <div class="alert alert-danger w-100" role="alert">
+                              <?php echo $_GET['message']; ?>
+                            </div>
+                            
+                        <?php
+                            }
+                        ?>
                 <div class="col-lg-5">
                     <div class="row justify-content-center">
-                        <form action="php/availability/handy_services.php?service=availability" method="post" id="gj-obe-integration-form" accept-charset="UTF-8" class="my-5 py-5">
+                        <form action="php/availability/handy_services.php?service=availability" method="post" id="gj-obe-integration-form" accept-charset="UTF-8" class="mb-5 pb-5">
                             
-                            <?php
-                                if(isset($_GET['message']) && !empty($_GET['message'])) {
-                            ?>
-                                <div class="alert alert-danger" role="alert">
-                                  <?php echo $_GET['message']; ?>
-                                </div>
-                            
-                            <?php
-                                }
-                            ?>
                             <div class="col-lg-12">
                                 <table style="text-align: center; display: inline-block;">
                                     <tr>
