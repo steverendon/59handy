@@ -107,17 +107,16 @@
                         <?php
                             if(isset($_GET['message']) && !empty($_GET['message'])) {
                         ?>
-                            <div class="alert alert-danger w-75 m-auto" role="alert">
+                            <div class="alert alert-danger w-75 mx-auto my-2" role="alert">
                               <?php echo $_GET['message']; ?>
                             </div>
                             
                         <?php
                             }
                         ?>
-                <br>
                 <div class="col-lg-5">
                     <div class="row justify-content-center">
-                        <form action="php/availability/handy_services.php?service=availability" method="post" id="gj-obe-integration-form" accept-charset="UTF-8" class="mb-5 pb-5">
+                        <form action="php/availability/handy_services.php?service=availability" method="post" id="gj-obe-integration-form" accept-charset="UTF-8" class="mb-5">
                             
                             <div class="col-lg-12">
                                 <table style="text-align: center; display: inline-block;">
