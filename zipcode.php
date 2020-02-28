@@ -78,7 +78,7 @@
                   
               <ul class="navbar nav">
                   <li class="nav-item">
-                     <a class="enlaces_menu" href="/zipcode.html">Book An Appointment</a>
+                     <a class="enlaces_menu" href="/zipcode.php">Book An Appointment</a>
                   </li>
               </ul>
   
