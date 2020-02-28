@@ -5,6 +5,9 @@
  * @copyright www.entrepreneur.com.co
  * 
 **/
+
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
     session_start();
     $servicio = $_GET['service'];
     
@@ -34,7 +37,8 @@
                 $_SESSION['zip'] = $zipcode;
                 session_destroy();
                 //include("no_service_zone.php");
-                header("location:../../zipcode.html?message=Sorry! there is no Handy Services in this moment for your area, zipcode: $zipcode");
+
+                header("Location: https://59handy.com/zipcode.php?message=Sorry! there is no Handy Services in this moment for your area, zipcode: $zipcode");
             }
             break;
             

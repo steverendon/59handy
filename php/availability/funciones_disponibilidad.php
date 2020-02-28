@@ -104,7 +104,7 @@
         if(isset($array_datos) && count($array_datos) > 0){
             $mensaje = "
                 <html>
-                    <head><meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+                    <head>
                     </head>
                     <body style='font-family: Roboto, sans-serif; font-display: swap'>
                         <p>Your service information is:</p>
@@ -165,4 +165,3 @@
         return $mensaje;
     }
 ?>
-
