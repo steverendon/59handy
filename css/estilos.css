@@ -35,7 +35,7 @@ sup{font-weight: 800%; color: #009CDE;font-size: 2.5em}
 
 .enlaces_menu{padding: 0 20px;}
 
-.enlaces_menu_yellow{padding: 20px;background-color: #F8E800;border-radius: 10px;font-weight: 700;}
+.enlaces_menu_yellow{padding: 10px;background-color: #F8E800;border-radius: 10px;font-weight: 700;}
 
 .barra ul{margin: 0px 10px}
 
@@ -148,6 +148,7 @@ footer i{margin: 0 5px}
 
 @media (max-width: 960px){
   .oferta{margin: 0 auto}  
+  .img-banner img { height: 300px;}
 }
 
 @media (max-width: 500px){
