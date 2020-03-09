@@ -54,6 +54,7 @@
         
     <!-- barra de navegacion-->
     
+    
     <nav class="navbar navbar-expand-lg navbar-light" style="padding-left: 0">
         
             <!-- logo principal-->
@@ -78,7 +79,7 @@
                   
               <ul class="navbar nav">
                   <li class="nav-item">
-                     <a class="enlaces_menu" href="/zipcode.php">Book An Appointment</a>
+                     <a class="enlaces_menu_yellow" href="/zipcode.php">Book An Appointment</a>
                   </li>
               </ul>
   
@@ -91,7 +92,7 @@
                     <a class="enlaces_menu" href="become_partner.html">Become a Handyman</a>
                   </li>-->
                   <li class="nav-item">
-                    <a class="enlaces_menu azul" href="tel: 18335942639" style="font-weight: 900"><i class="fas fa-phone-alt"></i> 24/7 Customer service 1 (833) 594-2639</a>
+                    <a class="enlaces_menu" onclick="gtag()" href="tel: 18335942639" style="font-weight: 900"><i class="fas fa-phone-alt"></i> 24/7 Customer service 1 (833) 594-2639</a>
                   </li>
                 </ul>
               </div>
@@ -169,7 +170,7 @@
             <div class="col-lg-3">
                 <div class="cuadros_footer">
                     <h5>Contacts Us</h5>
-                    <p>Email:<br>cs@59handy.com<br>Phone: 1 (833) 59 HANDY</p>
+                    <p>Email:<br>cs@59handy.com<br>Phone: <a class="" href="tel: 18335942639" style="font-weight: 900">24/7 Customer Service 1 (833) 594-2639</a></p>
                     <div class="iconos_redes">
                         <a href="https://www.instagram.com/59.handy/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.facebook.com/59handy/" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -179,11 +180,10 @@
             <div class="col-lg-3">
                 <div class="cuadros_footer">
                     <h5>Link</h5>
-                    <a href="tel: 18335942639">Just Pust It</a><br>
-                    <a href="contact_us.html">Contact Us</a><br>
-                    <a href="help.html">Help</a><br>
-                    <a href="https://elitee.co" target="_blank">Login</a><br>
-                    <a href="become_partner.html">Become a Handyman</a>
+                    <a href="zipcode.php" class="text-capitalize">Book An appointment</a><br>
+                    <a href="https://59handy.com/contact_us.html">Contact Us</a><br>
+                    <a href="https://59handy.com/help.html">Help</a><br>
+                    <a href="https://59handy.com/become_partner.html">Become a Handyman</a>
                 </div>
             </div>
         </div> 
