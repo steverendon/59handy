@@ -4,6 +4,28 @@
 
 a{color: #3F3F3F}
 
+.order {
+    color: #009CDE;
+}
+
+#regiration_form fieldset:not(:first-of-type) {
+    display: none;
+  }
+
+.selected {
+    background-color: #009CDE;
+    padding: 8px 15px;
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+.not_selected {
+    background-color: #fff;
+    padding: 8px 15px;
+    color: #009CDE;
+    border-radius: 10px;
+}
+
 a.azul{color: #009CDE}
 
 /* .img-banner {
