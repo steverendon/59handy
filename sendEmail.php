@@ -2,7 +2,7 @@
 
 require_once "php/availability/funciones_disponibilidad.php";
 
-$conexion = new mysqli('localhost','root','','handy');
+$conexion = new mysqli("localhost", "handy_systems", "Bs7DfsxLnzFx", "handy_disponibilidad");
 
 $hour = $conexion->real_escape_string($_POST['hora']);
 $date = $conexion->real_escape_string($_POST['fecha']);
