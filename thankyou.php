@@ -11,7 +11,7 @@
             <img src="img/imagenes_varias/partners.png" width="400" height="320px">
         </div>
     </div>  
-    <h3 style="text-align:center;margin:20px">Your message has been sent</h3>     
+    <h3 style="text-align:center;margin:20px">Your Handyman Has Been Confirmed</h3>     
     <br>
     <br>  
 
