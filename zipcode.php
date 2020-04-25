@@ -11,10 +11,10 @@
 <!--<h3 class="titulo_formulario"><b>Received form</b></h3>-->
     <div class="row justify-content-center my-5">
                         <?php
-                            if(isset($_GET['message']) && !empty($_GET['message'])) {
+                            if(isset($_GET['zipcode'])) {
                         ?>
                             <div class="alert alert-danger w-75 mx-auto my-2" role="alert">
-                              <?php echo $_GET['message']; ?>
+                              <?php echo "Unfortunately, we do not currently service the zip/postal code you've entered. We are always expanding our service area"; ?>
                             </div>
                             
                         <?php
